@@ -1,0 +1,53 @@
+body {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.icon-chevron-right {
+	float: right;
+	opacity: 0.25;
+}
+
+.active .icon-chevron-right {
+	background-image: url("../img/glyphicons-halflings-white.png");
+	opacity: 1;
+}
+
+#drop-width .dropdown-menu {
+	min-width: 75px;
+}
+
+#icons li {
+	float: left;
+	width: 180px;
+}
+
+#one .nav-tabs li {
+	width: 200px;
+}
+
+#one .active a {
+	background: #08c;
+	color: #fff;
+	cursor: pointer;
+}
+
+.page-header h3 {
+	padding-top: 40px;
+}
+
+.well-test {
+	background-color: #fff;
+	border: 1px solid #E3E3E3;
+	border-radius: 4px 4px 4px 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+	margin-bottom: 20px;
+	min-height: 20px;
+	padding: 19px;
+}
+
+#tool-example li {
+	width: 150px;
+	float: left;
+	list-style: none;
+}
